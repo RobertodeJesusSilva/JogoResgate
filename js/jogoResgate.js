@@ -483,7 +483,7 @@ function retiraPlacarPerdidos(){
             }//Fim da função recomecar4
 
 //Faremos a condição para o final do jogo, quando o jogador vence o jogo
-    if(pontos >= 600 && resgates >= 6){
+    if(pontos >= 100000 && resgates >= 250){
         vencendoJogo();
     }
 
